@@ -632,7 +632,7 @@ iframe {
   bottom: 14px;
   width: 6px;
   height: 11px;
-  
+  background: url(../images/plus_arrow.png) no-repeat;
 }
 #plus_popup a {
   display: inline-block;
@@ -899,11 +899,11 @@ iframe {
 }
 
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) { 
   body, .header{
-    width: 100%;
+    width: auto;
     margin: auto;
 
-} */
+}
   
