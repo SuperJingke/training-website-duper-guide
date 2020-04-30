@@ -16,6 +16,8 @@ body {
   font-family: "helvetica neue",arial,sans-serif;
   color: #333;
   background-color: #fff;
+  text-align: center;
+  justify-content: center;
 }
 ul, ol {
   list-style: none;
