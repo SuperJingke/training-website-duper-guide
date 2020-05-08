@@ -9,9 +9,19 @@ img{vertical-align: middle;}
   background: url(../images/page_icons.svg) no-repeat;
 }
 .clearfix {
-  zoom: 1;
+  zoom: 1.2;
 }
 .clearfix:after {
+  content: "020";
+  height: 0;
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix1 {
+  zoom:1.5;
+}
+.clearfix1:after {
   content: "020";
   height: 0;
   display: block;
@@ -49,11 +59,13 @@ img{vertical-align: middle;}
 }
 .header-bg {
   width: 100%;
-  height: 450px;
+  height: 100%;
   background-attachment: fixed;
   background: url(../images/header_bg.png) no-repeat;
   padding-bottom: 0;
   margin-bottom: 0em;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .header-top {
@@ -310,21 +322,6 @@ img{vertical-align: middle;}
   display: block;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  text-align: center;
-
-}
 
 
 /* Number text (1/3 etc) */
@@ -584,12 +581,117 @@ iframe {
   justify-content: center;
 }
 
+/* ========main page tabs ====*/
 
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 150px 50px;
+  height: 100%;
+  text-align: center;
+}
+
+#Home {background-color: brown;}
+#News {background-color: lightseagreen;}
+#Contact {background-color: lightskyblue;}
+
+/* ========style the sub-page camp.html=========*/
+/* Style the buttons that are used to open and close the accordion panel */
+.judges {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active .judges:hover {
+  background-color: #ccc;
+}
+
+.judges:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.camp-title {
+  font-size: 3em;
+}
+.camp-banner-title {
+  display: inline;
+  font-size: 70px;
+}
+
+.judges-content {
+  display: flex;
+  text-align: start;
+  margin: 1px 0 1px 1px;
+
+}
+.judges-items {
+  margin: 1px 1px 1px 1px;
+  padding: 2px;
+}
+.judges-wrap {
+  text-align: start;
+  font-size: 2em;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 0.5em;
+  
+}
+
+.judges-image {
+  max-width: 700px;
+  max-height: 400px;
+  padding: 0 0 1em 0;
+}
 
 /* ====== footer ====== */
 .footer {
   padding-top: 25px;
   padding-left: 0;
+  padding-right: 0;
+  width: auto;
   background-color: #333;
   justify-content: left;
   text-align: left;
@@ -976,8 +1078,8 @@ iframe {
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) { 
-  body, header, .main{
+@media screen and (max-width: 500px) { 
+  body, header, .footer, .main{
     width: auto;
     height: auto;
     margin-left: auto;
