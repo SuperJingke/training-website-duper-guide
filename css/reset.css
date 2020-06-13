@@ -40,3 +40,10 @@ input, button {
 img {
   vertical-align: top;
 }
+
+
+.footer{
+  width: auto;
+  margin-left: auto;
+  margin-right:auto;
+}
