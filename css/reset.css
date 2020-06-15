@@ -18,6 +18,8 @@ body {
   background-color: #fff;
   text-align: center;
   justify-content: center;
+  width: auto;
+  margin: auto;
 }
 ul, ol {
   list-style: none;
