@@ -9,7 +9,7 @@ img{vertical-align: middle;}
   background: url(../images/page_icons.svg) no-repeat;
 }
 .clearfix {
-  zoom: 1.2;
+  zoom: 1;
   width: auto;
 }
 .clearfix:after {
@@ -21,7 +21,7 @@ img{vertical-align: middle;}
   width: auto;
 }
 .clearfix1 {
-  zoom:1.5;
+  zoom:1.2;
 }
 .clearfix1:after {
   content: "020";
@@ -493,13 +493,16 @@ img{vertical-align: middle;}
   margin: 0 auto;
 }
 .main-list__wrapper {
-  display: inline-block;
-  margin-right: -16px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-right: -12px;
   align-items: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: auto;
+  padding-left: 10px;
+  margin-left: auto;
   
 }
 .main-list__wrapper a {
@@ -541,7 +544,7 @@ img{vertical-align: middle;}
   grid-template-areas: 1/1/2/2;
 }
 .item1 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item2{
@@ -550,7 +553,7 @@ img{vertical-align: middle;}
 }
 
 .item2 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item3{
@@ -559,7 +562,7 @@ img{vertical-align: middle;}
 }
 
 .item3 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item4{
@@ -567,7 +570,7 @@ img{vertical-align: middle;}
 }
 
 .item4 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item5{
@@ -575,7 +578,7 @@ img{vertical-align: middle;}
 }
 
 .item5 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item6{
@@ -583,7 +586,7 @@ img{vertical-align: middle;}
 }
 
 .item6 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 
@@ -592,7 +595,7 @@ img{vertical-align: middle;}
 }
 
 .item7 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item8{
@@ -600,7 +603,7 @@ img{vertical-align: middle;}
 }
 
 .item8 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item9{
@@ -608,28 +611,28 @@ img{vertical-align: middle;}
 }
 
 .item9 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item10{
   grid-template-areas: 4/1/5/2;
 }
 .item10 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item11{
   grid-template-areas: 4/2/5/3;
 }
 .item11 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 .item12{
   grid-template-areas: 4/3/5/4;
 }
 .item12 img{
-  border: solid 1px;
+  border: solid 2px;
 }
 
 
@@ -804,6 +807,7 @@ iframe {
   background-color: #333;
   justify-content: left;
   text-align: left;
+  width: auto;
 }
 .footer-logo {
   max-width: 120px;
@@ -812,7 +816,7 @@ iframe {
 
 .footer-column__wrapper {
   position: relative;
-  width: 1248px;
+  width: auto;
   margin: 0 auto;
   
   font-size: 0;
