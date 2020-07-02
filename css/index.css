@@ -693,6 +693,27 @@ iframe {
   justify-content: center;
 }
 
+/* sub-links */
+.sub-files a{
+  display: inline;
+}
+#myVideo {
+  display: none;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  
+  
+
+}
+.but {
+  font-size: 2em;
+  border: solid 1px;
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 1px 1px 1px 1px;
+}
+
 /* ========main page tabs ====*/
 
 
@@ -797,6 +818,8 @@ iframe {
   max-height: 400px;
   padding: 0 0 1em 0;
 }
+
+
 
 /* ====== footer ====== */
 .footer {
