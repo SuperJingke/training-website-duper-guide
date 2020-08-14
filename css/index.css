@@ -765,7 +765,12 @@ iframe {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+.but4 {
+  border: solid wheat 0.1px;
+  padding: 1px 3px 1px 3px;
+  background-color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
