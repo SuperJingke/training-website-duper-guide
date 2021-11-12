@@ -765,7 +765,12 @@ iframe {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+.but4 {
+  border: solid white 0.1px;
+  padding: 1px 3px 1px 3px;
+  background-color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
@@ -802,6 +807,7 @@ iframe {
 #Home {background-color: brown;}
 #News {background-color: lightseagreen;}
 #Contact {background-color: lightskyblue;}
+#Lecture {background-color: #422057ff;}
 
 /* ========style the sub-page camp.html=========*/
 /* Style the buttons that are used to open and close the accordion panel */

@@ -17,21 +17,20 @@
         <div class="header-logo">Home</div>
         <nav class="header-nav">
           <a href="#new" class="item item-cur">发现</a>
-          <a href="./sub-pages/camp.html" class="item new-icon">营会活动<i></i></a>
+          <a href="./sub-pages/training.html" class="item new-icon">事工训练<i></i></a>
           <a href="#" class="nav-more"></a>
           <div class="nav-more__hover">
             <div class="wrapper">
               <div class="top-part">
                 <a href="./sub-pages/bible-resource.html">圣经资源</a>
-                <a href="./sub-pages/contact.html">团契通讯录</a>
+                <a href="https://ccef-oc.herokuapp.com/contact">团契通讯录</a>
                 <a href="./sub-pages/training.html">事工训练</a>
               </div>
               <div class="middle-part">
                 <a href="#">影音区</a>
                 <a href="#">代祷与支持</a>
-                <a href="#">团契分布地图</a>
+                <a href="https://ccef-oc.herokuapp.com/contact"><b>团契分布地图</b></a>
                 <a href="#">见证分享</a>
-                <a href="#"><b>兴趣/生活 »</b></a>
               </div>
               <div class="bottom-part">
                 <i class="pin-icon sprite_icon"></i>
@@ -75,10 +74,14 @@
         </div>
         <div class="main-list__wrapper clearfix1">
           <a href="sub-pages/bible-resource.html"><img src="images/cont/main-list__img1.jpg" alt="#"><span>圣经资源</span></a>
-          <a href="sub-pages/contact.html"><img src="images/cont/main-list__img2.jpg" alt="#"><span>团契通讯录</span></a>
+          <a href="https://ccef-oc.herokuapp.com/contact"><img src="images/cont/main-list__img2.jpg" alt="#"><span>团契通讯录</span></a>
           <a href="sub-pages/camp.html"><img src="images/cont/main-list__img3.jpg" alt="#"><span>营会和活动</span></a>
           <a href="sub-pages/training.html"><img src="images/cont/main-list__img4.jpg" alt="#"><span>事工训练</span></a>
+<<<<<<< HEAD
           <a href="sub-pages/offering.html"><img src="images/cont/main-list__img2.jpg" alt="#"><span>奉献</span></a>
+=======
+          <a href="https://ccef-oc.org/donation/"><img src="images/cont/main-list__img2.jpg" alt="#"><span>奉献</span></a>
+>>>>>>> 9a443356209e49349e89244dafdb84c72c219d21
         </div>
       </div> 
       <div class="main-waterfall" id="new"></div>
@@ -86,36 +89,55 @@
           <span>为您推荐</span>
         </div>
 
-        <button class="tablink" onclick="openPage('Home', this, 'brown')">士师记十二課</button>
-        <button class="tablink" onclick="openPage('News', this, 'lightseagreen')" id="defaultOpen">最新讲座🔥</button>
-        <button class="tablink" onclick="openPage('Contact', this, 'lightskyblue')">認識聖經輔導</button>
+        <button class="tablink" onclick="openPage('Home', this, 'brown')">马可福音📒</button>
+        <button class="tablink" onclick="openPage('News', this, 'lightseagreen')">加拉太书📖</button>
+        <button class="tablink" onclick="openPage('Contact', this, 'lightskyblue')">路加福音📔</button>
+        <button class="tablink" onclick="openPage('Lecture', this, '#422057ff')" id="defaultOpen">团契新突破🎯</button>
+
 
         <div id="Home" class="tabcontent">
-          <a href="sub-pages/bible-resource.html"><img class="judges-image" src="./images/judges01.png" alt="士师记"></a>
+          <a href="sub-pages/bible-resource.html"><img class="judges-image" src="./images/mark.png" alt="马可福音"></a>
           <br>
-          <h2 style="font-size: 2em;">主講人：陸尊恩傳道</h3>
+          <div>
+            <br>
+            <br>
+            <h2 style="font-size: 2em;"><a style="color: white;" href="sub-pages/bible-resource.html" target="_blank">视频列表</a></h2>
+            <br>
+            <button class="but3"><a href="https://youtu.be/736XCExW5fE" target="_blank">讲员自我介绍</a></button>
+            <button class="but3"><a href="https://youtu.be/Kmm1w5lRzGk" target="_blank" >第一课快捷链接</a></button>
+          </div>
         </div>
 
         <div id="News" class="tabcontent">
-          <img style="width: 30em;height: 50em;" src="./images/lecture01.jpeg" alt="讲座">
+          <img style="width: 40em;height: 30em;" src="./images/c1.png" alt="加拉太书">
           <br>
           <br>
           <br>
-          <h3><a href="https://www.youtube.com/playlist?list=PLIw8eS5YzJElMpkBQGgLc0rgpBEUxDA3Q" target="_blank">点击：观看往期精彩视频</a></h3>
+          <h2 style="font-size: 2em; "><a href="sub-pages/bible-resource.html" target="_blank" style="color: white;">视频列表</a></h2>
+          <br>
+          <button class="but3"><a href="https://youtu.be/atGBXu17FL8" target="_blank">讲员自我介绍：胡晓岚博士</a></button>
+          <button class="but3"><a href="https://youtu.be/E8z7RuKIx6s" target="_blank">第一课快捷链接</a></button>
+        </div>
+
+        <div id="Lecture" class="tabcontent">
+          <img style="width: 25em;height: 30em;" src="./images/new-start.png" alt="新突破">
+          <br>
+          <br>
+          <br>
+          <h2 style="font-size: 2em; "><a href="sub-pages/training.html" target="_blank" style="color: white;">视频列表</a></h2>
+          <br>
+          <button class="but3"><a href="https://youtu.be/uKtBNrCd6vY" target="_blank">第一课快捷链接</a></button>
         </div>
 
         <div id="Contact" class="tabcontent">
           <div class="video" id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UbGPPBuEPAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EkzoiN7i5JQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <h3> <a href="https://www.youtube.com/watch?v=jsctUDJTTHw&list=PLN33DxdtNHGFoZ5wFfdAy9oCiPwnTFV4J&index=2" target="_blank">更多内容...</a></h3>
-         
+          <button class="but3"><a href="https://youtu.be/8P9tI5DGkpE" target="_blank">讲员自我介绍：胡君才传道</a></button>
+          <button class="but3"><a href="sub-pages/bible-resource.html" target="_blank">视频列表</a></button>
           
-        </div>
-
-        
-      </div>
-      
+        </div>      
+      </div>    
     </div>
   </div>
 
@@ -128,21 +150,21 @@
         
       </div>
       <div class="footer-column">
-        <a href="#" class="title"> CCEF主页</a>
+        <a href="https://ccef-oc.org/" class="title"> CCEF主页</a>
         <a href="#">各大校园详情</a>
         <a href="#">各地教会详情</a>
       </div>
       
       <div class="footer-column">
         <a href="#" class="title">联系与合作</a>
-        <a href="#">联系我们</a>
-        <a href="#">用户反馈</a>
+        <a href="#">我要反馈</a>
+        <a href="https://ccef-oc.org/donation/">我要奉献</a>
       </div>
       <div class="footer-column">
         <a href="#" class="title">移动客户端</a>
+        <a href="#">HD 网页版</a>
         <a href="#">iPhone 版</a>
         <a href="#">Android 版</a>
-        <a href="#">HD 网页版</a>
       </div>
       
       <div class="footer-column footer-followus">
